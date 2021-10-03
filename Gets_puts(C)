@@ -1,0 +1,11 @@
+// Gets and puts in C
+#include <stdio.h>
+int main()
+{ // Easiestway to input and output string in "C"
+    char s[30];
+    //Gets is a function which can be used to input a mult word string containing spaces
+    gets(s);
+    //Puts is a  function which can be used to output a string
+    puts(s);
+    return 0;
+}

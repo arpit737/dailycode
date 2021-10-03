@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <string.h> // We have to include this library since strlen is defined here
+int main()
+{
+    char *str = "String_length";
+    int a = strlen(str); // This function is used to know length of string
+    printf("The length of string str is %d", a);
+    return 0;
+}

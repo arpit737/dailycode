@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char *str = "Copyied";
+    char str2[45];
+    strcpy(str2, str); // strcpy is used to copy 1 string to another
+    // The string written second will bw copied to the string written first
+    printf("Now str2 is %s", str2);
+    return 0;
+}
